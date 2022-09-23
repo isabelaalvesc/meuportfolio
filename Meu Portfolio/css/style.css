@@ -1,0 +1,145 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+
+* {
+  /* font-family: 'Montserrat Alternates', sans-serif; */
+
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.body_index {
+  background-image: url(/img/background2.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+
+.header_index {
+  text-align: end;
+  color: white;
+
+
+}
+
+.header_index a {
+  text-decoration: none;
+  color: white;
+}
+
+.header_index a:hover {
+  color: #EF3C7C;
+}
+
+main h1 {
+  font-size: 40px;
+  /* font-family:Arial, Helvetica, sans-serif */
+}
+
+main p {
+  font-size: 14px;
+}
+
+.div_foto_perfil {
+  text-align: center;
+}
+
+#foto_perfil {
+  width: 160px;
+  border-radius: 160%;
+}
+
+.fotos_footer {
+  display: inline;
+  width: 18px;
+}
+
+.texto_footer {
+  text-align: end;
+}
+
+.fotos_hobbies {
+  display: inline;
+  width: 260px;
+  padding: 40px;
+}
+
+#titulo_hobbies {
+  margin-left: 100px;
+  text-align: left;
+}
+
+.colunas {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.div_hobbies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item_coluna {
+  width: 350px;
+  margin-bottom: 0;
+}
+
+.div_contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.coluna_contato {
+  margin-left: 80px;
+  margin-top: 70px;
+
+}
+
+#titulo_contato {
+  margin-right: 342px;
+  text-align: right;
+  margin-top: 50px;
+  margin-bottom: 0;
+  }
+
+.coluna_logos {
+  margin-top: 0;
+  margin-bottom: 90px;
+  
+}
+
+.logos_contato {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 5px; */
+  margin: 25px 0 0 30px;
+  background-color: black;
+  border: solid 1px black;
+  border-radius: 100%;
+}
+
+.div_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.texto_logo {
+  margin-top: 50px;
+  margin-left: 30px;
+
+}
+
+.div_logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.div_logo a:hover {
+  color: #EF3C7C;
+}
